@@ -46,8 +46,46 @@ p{
     text-shadow: 2px 2px 2px rgba(43, 42, 42, 0.721);
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-bottom: 7px;
 }
 .two:hover{
     cursor: pointer;
     color: black;
+}
+li{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.time1{
+    margin-right: 135px;
+}
+.time2{
+    padding-left: 15px;
+}
+.time{
+    padding-left: 15px;
+}
+input{
+    margin-left: 15px;
+    width: 240px;
+}
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.back,
+.for,
+.play:hover -> {
+    border-color: #bebebe;
+}
+.button2{
+    margin-left: 26px;
+}
+.button3{
+    margin-left: 26px;
 }
